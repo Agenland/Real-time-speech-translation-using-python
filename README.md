@@ -57,6 +57,7 @@ python3 RealTime.py
 
 #### 错误解决
 python 3.11 可用， 3.12 不保证
+依赖 funasr: pip install funasr
 
 conda 环境下可能有 GLIBCXX_3.4.30' not found
 需要建立软链接
