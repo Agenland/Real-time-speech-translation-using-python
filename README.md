@@ -60,7 +60,7 @@ python 3.11 可用， 3.12 不保证
 
 conda 环境下可能有 GLIBCXX_3.4.30' not found
 需要建立软链接
-cd /home/cedric/anaconda3/envs/decdiff_env/bin/../lib/
+cd /home/xxx/anaconda3/envs/decdiff_env/bin/../lib/
 mv libstdc++.so.6 libstdc++.so.6.old
 ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 libstdc++.so.6
 
