@@ -54,3 +54,15 @@ python3 RealTime.py
 因此你可能需要更改声音阈值.在python环境下调整RealTime.py搜索silence_threshold,调整其值即可.
 
 程序会在开始录音后在终端输出当前声音信号的信息，格式为  “当前声音， 声音阈值，计数"，这可能有助于找到合适的声音阈值
+
+#### 错误解决
+python 3.11 可用， 3.12 不保证
+
+conda 环境下可能有 GLIBCXX_3.4.30' not found
+需要建立软链接
+cd /home/cedric/anaconda3/envs/decdiff_env/bin/../lib/
+mv libstdc++.so.6 libstdc++.so.6.old
+ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 libstdc++.so.6
+
+
+
